@@ -6,10 +6,10 @@ import Appointment from "components/Appointment";
 
 afterEach(cleanup);
 
+//Tests for Appointment Component
 
 describe ("Appointment", () => {
   it("renders without crashing", () => {
     render(<Appointment />);
   });
-
 })

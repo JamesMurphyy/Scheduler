@@ -6,9 +6,8 @@ import Application from "components/Application";
 
 afterEach(cleanup);
 
-// xit("renders without crashing", () => {
-//   render(<Application />);
-// });
+//Tests for Application Component
+
 describe("Application", () => {
 
   it("defaults to Monday and changes the schedule when a new day is selected", () => {
@@ -46,15 +45,7 @@ describe("Application", () => {
     );
 
     expect(getByText(day, "no spots remaining")).toBeInTheDocument();
-    // debug();
-    // console.log(prettyDOM(day));
   });
-
-
-
-
-
-
 })
 
 // it("changes the schedule when a new day is selected", async () => {
