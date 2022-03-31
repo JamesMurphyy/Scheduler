@@ -3,7 +3,7 @@ import "components/Appointment/styles.scss";
 import Button from 'components/Button';
 
 //Defining Confirm Component
-//Including the buttons that are visibile -- Cancel and Confirm.
+//Including the buttons that are visible -- Cancel and Confirm.
 
 export default function Confirm(props) {
   return (

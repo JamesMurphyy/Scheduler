@@ -1,12 +1,14 @@
-// import React, { useState, useEffect } from "react";
 import React from "react";
 import DayList from "./DayList";
 import "components/Application.scss";
 import Appointment from "./Appointment";
 import useApplicationData from "hooks/useApplicationData";
 
+//Defining Application function which displays all the information regarding the static webpage -- Displays the dayLists and the Appointments that have been
+//made for each day -- allowing the user to click through each day and, in real-time, see what appointment slots have been booked/not booked.
 
 export default function Application(props) {
+  //Deconstructing functions and variables from the useApplicationData page (made a hook to increase code readability)  
   const {
     state,
     setDay,

@@ -2,10 +2,10 @@ import React from 'react';
 import "components/InterviewerListItem.scss";
 import classNames from "classnames";
 
-
+//Defining the InterviewerListItem and displays the avatar of the interviewer and, when selected, their name.
 export default function InterviewerListItem(props) {
 
-
+  //The InterviewerClass changes depending on if the interviewer has been selected
   const InterviewerClass = classNames("interviewers__item", {
     "interviewers__item--selected": props.selected
   });
@@ -20,4 +20,4 @@ export default function InterviewerListItem(props) {
       {props.selected && props.name}
     </li>
   );
-}
+};

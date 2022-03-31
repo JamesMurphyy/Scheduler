@@ -1,8 +1,9 @@
 import React from 'react';
 import InterviewerListItem from './InterviewerListItem';
-import "components/InterviewerList.scss"
+import "components/InterviewerList.scss";
 import PropTypes from 'prop-types';
 
+//Defining the InterviewList Component that is used to display each interviewer Component depending on what Interviewers are available each selected day.
 
 export default function InterviewerList(props) {
 
@@ -25,8 +26,8 @@ export default function InterviewerList(props) {
         {interviewers}
       </ul>
     </section>
-  )
-}
+  );
+};
 
 InterviewerList.propTypes = {
   interviewers: PropTypes.array.isRequired
