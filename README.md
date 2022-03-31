@@ -17,6 +17,16 @@ This app allows the user to update, edit and delete **PostgreSQL** databases in 
 - A user can edit the details of an existing interview.
 - A user can see the number of available appointments for each day.
 
+## Final Product
+
+!["Regular View"]()
+
+!["Appointment Form"]()
+
+!["Delete Appointment"]()
+
+!["Edit Appointment/Displays Error if Student Field Blank"]()
+
 ## Setup
 
 Install dependencies with `npm install`.
@@ -48,3 +58,12 @@ npm run storybook
 ***Back-End:*** Express, Node.js, PostgreSQL
 
 ***Testing:*** Storybook, Jest, Cypress
+
+## Dependencies Used
+- Axios
+- Classnames
+- Cypress
+- React
+- Babel-loader
+- Node - SASS
+- Normalize.css
