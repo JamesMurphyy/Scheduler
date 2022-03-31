@@ -46,7 +46,7 @@ describe("Application", () => {
 
     expect(getByText(day, "no spots remaining")).toBeInTheDocument();
   });
-})
+});
 
 // it("changes the schedule when a new day is selected", async () => {
 //   const { getByText } = render(<Application />);

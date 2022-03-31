@@ -27,4 +27,4 @@ describe("DayListItem", () => {
     const { getByText } = render(<DayListItem name="Monday" spots={2} />);
     expect(getByText("2 spots remaining")).toBeInTheDocument();
   });
-})
+});
