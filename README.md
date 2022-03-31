@@ -19,13 +19,13 @@ This app allows the user to update, edit and delete **PostgreSQL** databases in 
 
 ## Final Product
 
-!["Regular View"]()
+!["Regular View"](https://github.com/JamesMurphyy/Scheduler/blob/master/docs/Screenshot0.PNG)
 
-!["Appointment Form"]()
+!["Appointment Form"](https://github.com/JamesMurphyy/Scheduler/blob/master/docs/Screenshot1.PNG)
 
-!["Delete Appointment"]()
+!["Delete Appointment"](https://github.com/JamesMurphyy/Scheduler/blob/master/docs/Screenshot2.PNG)
 
-!["Edit Appointment/Displays Error if Student Field Blank"]()
+!["Edit Appointment/Displays Error if Student Field Blank"](https://github.com/JamesMurphyy/Scheduler/blob/master/docs/Screenshot3.PNG)
 
 ## Setup
 
