@@ -1,5 +1,8 @@
 import React from 'react';
-import "components/Appointment/styles.scss"
+import "components/Appointment/styles.scss";
+
+//Defining an Error Component
+//Provides an error message and a onClick option to close the error within the design (top right image).
 
 export default function Error(props) {
   return (
@@ -15,5 +18,5 @@ export default function Error(props) {
         onClick={props.onClose}
       />
     </main>
-  )
+  );
 };

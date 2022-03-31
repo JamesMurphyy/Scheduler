@@ -1,5 +1,8 @@
 import React from 'react';
-import "components/Appointment/styles.scss"
+import "components/Appointment/styles.scss";
+
+//Defining the Show function that displays the students name and interviewers name --
+//also, when hovers, shows the onEdit property and the onDelete property.
 
 export default function Show(props) {
   return (

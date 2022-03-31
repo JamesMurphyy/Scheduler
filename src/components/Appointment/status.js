@@ -1,5 +1,7 @@
 import React from 'react';
-import "components/Appointment/styles.scss"
+import "components/Appointment/styles.scss";
+
+//Defining the Status function which shows a message and looping image (used when deleting and saving appointments)
 
 export default function Status(props) {
   return (

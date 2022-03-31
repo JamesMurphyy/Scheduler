@@ -1,6 +1,9 @@
 import React from 'react';
-import "components/Appointment/styles.scss"
+import "components/Appointment/styles.scss";
 import Button from 'components/Button';
+
+//Defining Confirm Component
+//Including the buttons that are visibile -- Cancel and Confirm.
 
 export default function Confirm(props) {
   return (
@@ -11,5 +14,5 @@ export default function Confirm(props) {
         <Button danger onClick={props.onConfirm}> Confirm</Button>
       </section>
     </main>
-  )
-}
+  );
+};

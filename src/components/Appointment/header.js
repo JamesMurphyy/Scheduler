@@ -1,5 +1,8 @@
 import React from 'react';
-import "components/Appointment/styles.scss"
+import "components/Appointment/styles.scss";
+
+//Defining Header Component
+//Displays the time that is passed on through the properties.
 
 export default function Header(props) {
   return (
@@ -7,5 +10,5 @@ export default function Header(props) {
       <h4 className="text--semi-bold">{props.time}</h4>
       <hr className="appointment__separator" />
     </header>
-  )
-}
+  );
+};

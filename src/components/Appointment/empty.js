@@ -1,5 +1,8 @@
 import React from 'react';
-import "components/Appointment/styles.scss"
+import "components/Appointment/styles.scss";
+
+//Defining Empty Component
+//Showing an image with an onClick function that triggers the onAdd property.
 
 export default function Empty(props) {
   return (
@@ -11,5 +14,5 @@ export default function Empty(props) {
         onClick={props.onAdd}
       />
     </main>
-  )
-}
+  );
+};
