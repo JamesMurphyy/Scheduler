@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
@@ -19,6 +19,9 @@ import Status from "components/Appointment/status.js";
 import Error from "components/Appointment/error.js";
 import Form from "components/Appointment/Form.js";
 
+//Stories made for each component pre-utilization for ease of testing and easier implimentation of items.
+
+//Stories made for the Button component
 storiesOf("Button", module)
   .addParameters({
     backgrounds: [{ name: "dark", value: "#222f3e", default: true }]
@@ -35,6 +38,8 @@ storiesOf("Button", module)
     </Button>
   ));
 
+//Stories made for the DayListItem component
+
 storiesOf("DayListItem", module) //Initiates Storybook and registers our DayListItem component
   .addParameters({
     backgrounds: [{ name: "dark", value: "#222f3e", default: true }]
@@ -46,6 +51,7 @@ storiesOf("DayListItem", module) //Initiates Storybook and registers our DayList
     <DayListItem name="Tuesday" setDay={action("setDay")} spots={5} /> // action() allows us to create a callback that appears in the actions panel when clicked
   ));
 
+//Add fake data so the stories can render what to look for and properly display the information needed to be displayed.
 
 const days = [
   {
@@ -65,6 +71,8 @@ const days = [
   },
 ];
 
+//Stories made for the DayList component
+
 storiesOf("DayList", module)
   .addParameters({
     backgrounds: [{ name: "dark", value: "#222f3e", default: true }],
@@ -79,12 +87,13 @@ storiesOf("DayList", module)
     <DayList days={days} value={"Wednesday"} onChange={action("setDay")} />
   ));
 
-
 const interviewer = {
   id: 1,
   name: "Sylvia Palmer",
   avatar: "https://i.imgur.com/LpaY82x.png"
 };
+
+//Stories made for the InterviewerListItem component
 
 storiesOf("InterviewerListItem", module)
   .addParameters({
@@ -121,6 +130,8 @@ const interviewers = [
   { id: 5, name: "Sven Jones", avatar: "https://i.imgur.com/twYrpay.jpg" }
 ];
 
+//Stories made for the InterviewerList component
+
 storiesOf("InterviewerList", module)
   .addParameters({
     backgrounds: [{ name: "dark", value: "#222f3e", default: true }]
@@ -142,6 +153,8 @@ storiesOf("InterviewerList", module)
       onChange={action("setInterviewer")}
     />
   ));
+
+//Stories made for the Appointment component
 
 storiesOf("Appointment", module)
   .addParameters({
