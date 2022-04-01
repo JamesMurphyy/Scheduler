@@ -1,12 +1,12 @@
 import React from 'react';
 import "components/Appointment/styles.scss";
-import Header from './header';
-import Show from './show';
-import Empty from './empty';
+import Header from './Header';
+import Show from './Show';
+import Empty from './Empty';
 import Form from './Form';
-import Status from './status';
-import Confirm from './confirm';
-import Error from './error';
+import Status from './Status';
+import Confirm from './Confirm';
+import Error from './Error';
 import useVisualMode from 'hooks/useVisualMode';
 
 //Defining the Appointment Component
@@ -113,7 +113,7 @@ export default function Appointment(props) {
       )}
 
       {mode === ERROR_SAVE && (
-        <Error message="Unable to save appointment" onClose={() => back()} />
+        <Error message="Unable to save appointment" onClose={() => transition(EDIT)} />
       )}
       {mode === ERROR_DELETE && (
         <Error message="Unable to delete appointment" onClose={() => back()} />

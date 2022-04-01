@@ -30,7 +30,7 @@ export default function Form(props) {
       return;
     }
     if (interviewer === null) {
-      setError("Interviewer cannot be blank");
+      setError("An Interviewer must be selected");
       return;
     }
     setError("");

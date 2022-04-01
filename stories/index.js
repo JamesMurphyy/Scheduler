@@ -11,12 +11,12 @@ import DayList from "components/DayList";
 import InterviewerListItem from "components/InterviewerListItem";
 import InterviewerList from "components/InterviewerList";
 import Appointment from "components/Appointment/index.js";
-import Header from "components/Appointment/header.js";
-import Empty from "components/Appointment/empty.js";
-import Show from "components/Appointment/show.js";
-import Confirm from "components/Appointment/confirm.js";
+import Header from "components/Appointment/Header.js";
+import Empty from "components/Appointment/Empty.js";
+import Show from "components/Appointment/Show.js";
+import Confirm from "components/Appointment/Confirm.js";
 import Status from "components/Appointment/status.js";
-import Error from "components/Appointment/error.js";
+import Error from "components/Appointment/Error.js";
 import Form from "components/Appointment/Form.js";
 
 //Stories made for each component pre-utilization for ease of testing and easier implimentation of items.
